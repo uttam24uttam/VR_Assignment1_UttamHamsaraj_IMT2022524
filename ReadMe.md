@@ -11,12 +11,23 @@ This assignment consists of two parts:
 
 ## Prerequisites
 
-Install Python 3.10. The following Python libraries are required: `cv2`, `numpy`, `matplotlib`, and `imutils`.
+### Install Python  
+Ensure you have **Python 3.10** installed on your system.  
 
-Install all dependencies using:
+### Required Python Libraries  
+The following Python libraries are needed:  
+
+- `opencv-python` (`cv2`)  
+- `numpy`  
+- `matplotlib`  
+- `imutils`  
+
+### Install Dependencies  
+You can install all required dependencies using the following command:  
+
 ```bash
 pip install opencv-python numpy matplotlib imutils
-```
+
 
 ## Repository Structure
 
