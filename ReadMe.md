@@ -63,7 +63,7 @@ python3 image_stitching.py
 ## Input Image
 
 ![coin_image](https://github.com/user-attachments/assets/02247926-4780-4d31-8e87-98350f4f737b)
-
+**Figure 1:** Input coin image
 
 
 
@@ -78,16 +78,16 @@ python3 image_stitching.py
 ### Output Images
 
 ![Edge Detection Output](https://github.com/user-attachments/assets/0c231754-ba71-4d4a-81a3-4fb74c29a15d)  
-**Figure 1:** Edge Detection Output  
+**Figure 2:** Edge Detection Output  
 
 ![Segmentation Output](https://github.com/user-attachments/assets/0ac797fe-11b6-4b74-bfcb-27e7dfc913fd)  
-**Figure 2:** Segmentation Output  
+**Figure 3:** Segmentation Output  
 
 ![Contour Output](https://github.com/user-attachments/assets/a22430ee-b6ba-41ce-99f2-cb018e84e744)  
-**Figure 3:** Contour Output  
+**Figure 4:** Contour Output  
 
 ![Count Coin Output](https://github.com/user-attachments/assets/0ef13b58-8429-4976-ad05-0e1fa10c6e43)  
-**Figure 4:** Count Coin Output  
+**Figure 5:** Count Coin Output  
 
 
 
@@ -97,8 +97,15 @@ python3 image_stitching.py
 # Part 2: Panorama Creation
 
 ## Input Images
+![left](https://github.com/user-attachments/assets/86bde86b-e23c-457f-aca3-9a76b0a477c4)
+**Figure 6:** Left-Input Image  
 
-*(Figure 6: Input images - left, center, right - for panorama stitching)*
+![center](https://github.com/user-attachments/assets/1ee1c3f7-05b1-4bb8-927e-0a1ad8695163)
+**Figure 7:** Center-Input Image  
+
+![right](https://github.com/user-attachments/assets/960b32c0-94ac-4347-bd33-f20b5780fa97)
+**Figure 8:** Right-Input Image  
+
 
 ### Implementation
 
@@ -110,8 +117,14 @@ python3 image_stitching.py
 
 ### Output Images
 
-*(Figure 7: KeyPoints Matching)*  
-*(Figure 8: Final Stitched Panorama)*  
+![keypoints_matching_left_center](https://github.com/user-attachments/assets/6d4b02e6-b0a1-4b8f-ac3c-6159ee59100c)
+**Figure 9:** Keypoints Matching 
+
+![keypoints_matching_center_right](https://github.com/user-attachments/assets/294c8aae-4b3d-4584-aa8c-cb68eae459cf)
+**Figure 10:** Keypoints Matching 
+
+![stitchedOutputProcessed](https://github.com/user-attachments/assets/ffcb9cbf-563f-4867-9488-8c8e92ab07ca)
+**Figure 11:**  Final Stitched Panaroma
 
 ---
 
