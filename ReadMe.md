@@ -45,13 +45,13 @@ cd VR_Assignment1_UttamHamsaraj_IMT2022524
 
 2. To run **Part 1** (Coin Detection):
 ```bash
-cd PART-1
+cd PART_1
 python3 coins.py
 ```
 
 3. To run **Part 2** (Panorama Creation):
 ```bash
-cd PART-2
+cd PART_2
 python3 image_stitching.py
 ```
 
