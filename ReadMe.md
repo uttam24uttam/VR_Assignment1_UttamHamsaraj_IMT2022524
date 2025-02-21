@@ -69,11 +69,12 @@ python3 image_stitching.py
 
 ### Methods Used
 
-- **Preprocessing:** The image is smoothed using Gaussian Blur to remove noise and converted to grayscale.
-- **Edge Detection:** Canny Edge Detection is applied to detect object boundaries. Morphological closing is applied to refine the segmentation.
-- **Segmentation:** Region-based segmentation using contour detection extracts individual coin regions.
-- **Contours:** `findContours()` is used to find contours from improved edges.
-- **Counting:** Coins are counted by filtering contours based on area thresholding.
+- **Preprocessing:** The image is converted to grayscale and Gaussian Blur is applied to reduce noise and smooth the image.  
+- **Edge Detection:** Canny Edge Detection is used to detect the edges. Otsu’s thresholding is applied to create a binary image for better edge contrast. Morphological closing is used to refine object boundaries by filling small gaps.  
+- **Segmentation:** Region-based segmentation using contour detection extracts individual coin regions.  
+- **Contours Detection:** `findContours()` is applied to the edge-detected image to extract shape outlines. This helps distinguish coins from background noise.  
+- **Counting:** Contours are filtered using an area threshold to exclude small artifacts. The valid contours (coins) are counted to determine the total number of coins.  
+
 
 ### Output Images
 
