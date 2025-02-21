@@ -62,7 +62,8 @@ python3 image_stitching.py
 
 ## Input Image
 
-*(Figure 1: Input coin image)*
+[coin_image](https://github.com/user-attachments/assets/02247926-4780-4d31-8e87-98350f4f737b)
+
 
 ### Methods Used
 
