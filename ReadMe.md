@@ -90,7 +90,11 @@ python3 image_stitching.py
 **Figure 5:** Count Coin Output  
 
 
+# Observations
 
+- Some internal parts were mistakenly detected as edges, so morphological closing was applied to refine the segmentation.
+- Edge detection depends on the image taken and the lighting of the image.
+- The segmentation method depends on the arrangement of coins; region-based segmentation was found to be the most suitable approach.
 
 ---
 
@@ -130,12 +134,6 @@ python3 image_stitching.py
 
 # Observations
 
-## Part 1
-- Some internal parts were mistakenly detected as edges, so morphological closing was applied to refine the segmentation.
-- Edge detection depends on the image taken and the lighting of the image.
-- The segmentation method depends on the arrangement of coins; region-based segmentation was found to be the most suitable approach.
-
-## Part 2
 - Proper image overlap improves stitching accuracy.
 - Lighting and angle differences affect keypoint matching.
 - Good keypoint matching ensures better alignment.
