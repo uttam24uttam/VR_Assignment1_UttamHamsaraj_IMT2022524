@@ -77,10 +77,11 @@ python3 image_stitching.py
 
 ### Output Images
 
-*(Figure 2: Edge Detection Output)*  
-*(Figure 3: Segmentation Output)*  
-*(Figure 4: Contour Output)*  
-*(Figure 5: Total Number of Coins)*  
+![edge_detection_output](https://github.com/user-attachments/assets/0c231754-ba71-4d4a-81a3-4fb74c29a15d) 
+![Uploading segmentation_output.jpg…]()
+![Uploading contour_output.jpg…]()
+![Uploading count_coint_output.jpg…]()
+
 
 ---
 
