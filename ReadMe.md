@@ -90,6 +90,8 @@ python3 image_stitching.py
 **Figure 5:** Count Coin Output  
 
 
+
+
 # Observations
 
 - Some internal parts were mistakenly detected as edges, so morphological closing was applied to refine the segmentation.
