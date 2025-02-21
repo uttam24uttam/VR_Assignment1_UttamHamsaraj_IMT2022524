@@ -9,23 +9,13 @@ This assignment consists of two parts:
 - **Part 1: Coin Detection and Segmentation** – Detecting, segmenting, and counting coins from an image containing scattered Indian coins.
 - **Part 2: Panorama Creation** – Creating a stitched panorama from multiple overlapping images.
 
+
 ## Prerequisites
 
-### Install Python  
-Ensure you have **Python 3.10** installed on your system.  
+Install Python 3.10. The following Python libraries are required: cv2, numpy, matplotlib, and imutils.
 
-### Required Python Libraries  
-The following Python libraries are needed:  
-
-- `opencv-python` (`cv2`)  
-- `numpy`  
-- `matplotlib`  
-- `imutils`  
-
-### Install Dependencies  
-You can install all required dependencies using the following command:  
-
-```bash
+Install all dependencies using:
+bash
 pip install opencv-python numpy matplotlib imutils
 
 
