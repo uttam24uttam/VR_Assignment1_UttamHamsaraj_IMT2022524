@@ -1,8 +1,6 @@
 # Visual Recognition Assignment 1
 
-**Uttam Hamsaraj**  
-IMT2022524  
-February 21, 2025  
+
 
 ## TASKS
 
