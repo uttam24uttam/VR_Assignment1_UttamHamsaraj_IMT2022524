@@ -106,7 +106,7 @@ python3 image_stitching.py
 **Figure 8:** Right-Input Image  
 
 
-### Implementation
+### Methods Used
 
 - **Preprocessing:** Image is converted to grayscale.
 - **Keypoint Detection:** Keypoints are detected using SIFT.
