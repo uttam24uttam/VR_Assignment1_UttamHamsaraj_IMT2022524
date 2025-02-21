@@ -24,12 +24,12 @@ pip install opencv-python numpy matplotlib imutils
 ```
 VR_Assignment1_UttamHamsaraj_IMT2022524/
 │
-├── PART-1/
+├── PART_1/
 │   ├── coins.py              # The code
 │   ├── coin_image/           # The input image
 │   ├── output_images/        # Created when the script is run, contains all output images
 │
-├── PART-2/
+├── PART_2/
 │   ├── images/               # Folder containing all input images
 │   ├── image_stitching.py    # The code
 │   ├── output_images/        # Created when the script is run, contains all output images
